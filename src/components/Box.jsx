@@ -17,9 +17,7 @@ export function Box() {
 
       <div>
         <button
-          onClick={() =>
-            colorSchema === "dark" ? toggleTheme("light") : toggleTheme("dark")
-          }
+          onClick={() => toggleTheme()}
           style={{
             background: theme.background,
             color: theme.color,
